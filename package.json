@@ -18,5 +18,20 @@
   "bugs": {
     "url": "https://github.com/ahmednet2020/react-level2/issues"
   },
-  "homepage": "https://github.com/ahmednet2020/react-level2#readme"
+  "homepage": "https://github.com/ahmednet2020/react-level2#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "grunt": "^1.0.3",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "load-grunt-tasks": "^4.0.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
 }
