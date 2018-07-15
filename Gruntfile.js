@@ -28,9 +28,6 @@ module.exports = function(grunt) {
       }
     }
   },
-  //clean config
-  clean: ['./build/js/'],
-  })
   //run Tasks
-  grunt.registerTask('default', ['clean','browserify']);
+  grunt.registerTask('default', ['browserify']);
 };

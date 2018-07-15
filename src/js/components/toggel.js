@@ -16,7 +16,7 @@ export default class Toggel extends Component
 	}
 	render()
 	{
-		const { render } = this.props;
-		return (render({on:this.state.on, toggle:this.toggelButton}))
+		const { children } = this.props;
+		return (children({on:this.state.on, toggle:this.toggelButton}))
 	}
 }
